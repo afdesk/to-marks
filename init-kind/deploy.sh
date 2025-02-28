@@ -19,3 +19,5 @@ kubectl apply -f ./trivy-operator/deploy/helm/crds/aquasecurity.github.io_infraa
 kubectl apply -f ./trivy-operator/deploy/helm/crds/aquasecurity.github.io_rbacassessmentreports.yaml
 kubectl apply -f ./trivy-operator/deploy/helm/crds/aquasecurity.github.io_sbomreports.yaml
 kubectl apply -f ./trivy-operator/deploy/helm/crds/aquasecurity.github.io_vulnerabilityreports.yaml
+
+echo "DONE!"
